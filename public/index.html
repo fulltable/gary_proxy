@@ -10,6 +10,8 @@
 </head>
 <body>
   <img src="https://s3-us-west-1.amazonaws.com/opentabs-sidebar/pics/TopBanner.png" class="main-image">
+  <div id="app"></div>
+  <div id="overview"></div>
   <div id="proxy-container" class="proxy-container">
     <div id="proxy-overview" class="proxy-overview"></div>
     <div id="proxy-sidebar" class="proxy-sidebar"></div>
@@ -20,31 +22,10 @@
   <div id="sidebar" style='padding-left: 900px'></div>
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <script src="https://s3-us-west-1.amazonaws.com/opentabs-menu/bundle.js"></script>
-  <script src="https://s3-us-west-1.amazonaws.com/opentabs-sidebar/bundle.js"></script>
-  <script src="https://s3-us-west-1.amazonaws.com/photowheelopentabs/bundle/bundle.js"></script>
-  <script src="https://s3-us-west-1.amazonaws.com/open-tabs-reviews/bundle.js"></script>
-  <script>
-      ReactDOM.render(
-        React.createElement(Menu),
-        document.getElementById('proxy-menu')
-      );
-      ReactDOM.render(
-        React.createElement(Sidebar),
-        document.getElementById('proxy-sidebar')
-      );
-      ReactDOM.render(
-        React.createElement(Overview),
-        document.getElementById('proxy-overview')
-      );
-      ReactDOM.render(
-        React.createElement(Reviews),
-        document.getElementById('proxy-reviews')
-      );
-      ReactDOM.render(
-        React.createElement(Photos),
-        document.getElementById('proxy-photos')
-      );
-  </script>
+  <!-- <script src="https://s3-us-west-1.amazonaws.com/opentabs-menu/bundle.js"></script> -->
+  <!-- <script src="https://s3-us-west-1.amazonaws.com/opentabs-sidebar/bundle.js"></script> -->
+  <!-- <script src="https://s3-us-west-1.amazonaws.com/photowheelopentabs/bundle/bundle.js"></script> -->
+  <!-- <script src="https://s3-us-west-1.amazonaws.com/open-tabs-reviews/bundle.js"></script> -->
+  <script src="https://s3-us-west-1.amazonaws.com/sidebarbundle/bundle.js"></script>
 </body>
 </html>
